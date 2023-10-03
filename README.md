@@ -2,6 +2,7 @@
 
 - [README](#readme)
   - [Outils](#outils)
+  - [Brief](#brief)
   - [Installation](#installation)
     - [Démarrage - HTML / CSS / JS](#démarrage---html--css--js)
     - [npm init](#npm-init)
@@ -13,7 +14,11 @@
 
 ## Outils
 
-[Outils](docs/tools.md)
+- [Outils](docs/tools.md)
+
+## Brief
+
+- [Brief](docs/brief.md)
 
 ## Installation
 
