@@ -8,6 +8,8 @@
     - [npm init](#npm-init)
     - [Vite](#vite)
     - [Package.json](#packagejson)
+    - [Tests](#tests)
+      - [Jest](#jest)
       - [Fichier de tests](#fichier-de-tests)
     - [ESLint](#eslint)
     - [Husky](#husky)
@@ -53,7 +55,7 @@ npm install vite
 "scripts": {
     "dev": "vite"
   }
-```3
+```
 
 ### Tests
 
@@ -90,7 +92,7 @@ test('adds 1 + 2 to equal 3', () => {
 ```
 
 ```json
-scripts": {
+"scripts": {
     "test": "jest"
   }
 ```
@@ -145,5 +147,4 @@ npx husky-init && npm install
 
 Cela ajoute automatiquement un hook `pre-commit` qui lance `npm test` avant chaque commit.
 
->> ⚠️ For Windows users, if you see the help message when running npx husky add ..., try node node_modules/husky/lib/bin add ... instead. This isn't an issue with husky code.
-
+> ⚠️ For Windows users, if you see the help message when running npx husky add ..., try node node_modules/husky/lib/bin add ... instead. This isn't an issue with husky code.
